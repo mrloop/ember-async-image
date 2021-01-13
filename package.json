@@ -25,6 +25,7 @@
     "build": "ember build",
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
+    "lint": "npm run-script lint:js && npm run-script lint:hbs",
     "start": "ember serve",
     "test": "ember test",
     "test:all": "ember try:each"
